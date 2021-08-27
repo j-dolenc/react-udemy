@@ -1,0 +1,25 @@
+.input {
+    margin:2rem auto;
+    padding: 1rem;
+    width:90%;
+    max-width: 40rem;
+}
+.input label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.input input{
+    font: inherit;
+    display: block;
+    width: 100%;
+    border: 3px solid rgb(195, 172, 172);
+    border-radius: 10px;
+    padding: 0.15rem;
+    margin-bottom: 0.5rem;
+}
+.input:focus{
+    outline: none;
+    border-color: #9c57aa;
+    border-radius: 10px;
+}
