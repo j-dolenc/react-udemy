@@ -25,6 +25,7 @@ const QuoteDetail = () => {
     <Fragment>
       <h1>Quote detail</h1>
       <HighlightedQuote text={quote.text} author={quote.author}/>
+      <div className='centered'></div>
       <Route path={`/quotes/${params.quoteId}/comments`}>
         <Comments></Comments>
       </Route>
