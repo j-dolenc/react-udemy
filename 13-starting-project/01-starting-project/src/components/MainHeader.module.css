@@ -1,0 +1,35 @@
+.header {
+    width:100%;
+    height: 5rem;
+    background-color: rgb(162, 198, 231);
+    padding: 0 10%;
+    /* border:2px solid #6098e2;
+    border-radius: 25px; */
+}
+.header nav {
+    height: 100%;
+}
+.header ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+.header li {
+    margin:0.1rem;
+    width: 5rem;
+}
+header a {
+    color: aliceblue;
+    text-decoration: none;
+}
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: #7090b9;
+  padding-bottom: 0.25rem;
+  border-bottom: 4px solid #7e9dc7;
+}
