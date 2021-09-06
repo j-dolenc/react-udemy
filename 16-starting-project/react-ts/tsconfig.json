@@ -1,16 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
+    "target": "es5", //target javascript version es5 je old version
+    "lib": [   //which kind of types are know from the start
+      "dom",  //ensures that some default dom types are understood by typescript -- HTMLInputElement
+      "dom.iterable", 
       "esnext"
     ],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
+    "strict": true, // ce false, ti ni treba skoz dajat tipov
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
