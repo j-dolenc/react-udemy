@@ -1,0 +1,6 @@
+.item {
+    margin: 1rem 0;
+    box-shadow: 4px 4px 3px rgba(192, 80, 80, 0.5);
+    padding:1rem;
+    background-color: #f7f5ef;
+}
